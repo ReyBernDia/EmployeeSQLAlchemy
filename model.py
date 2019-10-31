@@ -106,7 +106,6 @@ def all_employees_nav():
     # the 'dept' attribute --- but that will fire off a query
     # for every single dept (use the FlaskDebugToolbar to
     # verify this)
-    # print("**********THERE ARE THE EMPLOYEES*******")
     return emps_with_dept.all()
 
     # *Advanced Note*: there is a way to do this efficiently,
